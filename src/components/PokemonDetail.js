@@ -1,7 +1,6 @@
 import { useParams } from "react-router-dom";
 import React, { useState, useEffect } from "react";
 import {Box, Card, Grid, Typography} from "@mui/material";
-import "../styleEvolutions.css";
 import PokemonEvolution from "./PokemonEvolution";
 
 const PokemonDetail = () => {
