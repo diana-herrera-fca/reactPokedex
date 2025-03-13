@@ -29,7 +29,6 @@ const Pokedex = () =>{
     }, [page]);
     return (
          <div>
-             <h1>Pokedex</h1>
              {data.length > 0 ? (
                  <>
                      <Grid container spacing={3}>
