@@ -13,7 +13,7 @@ const Pokedex = () =>{
             try {
                 const offset = (page - 1) * itemsPerPage;
                 const response = await fetch(
-                    `https://aplicacion-env.eba-p22dcwvp.us-east-2.elasticbeanstalk.com/pokedex?offset=${offset}&limit=${itemsPerPage}`
+                    `https://xe40edt7y4.execute-api.us-east-2.amazonaws.com/prod/pokedex?offset=${offset}&limit=${itemsPerPage}`
                 );
                 const result = await response.json();
                 setData(result.items || []);
